@@ -13,7 +13,7 @@ setup(
             "file-organizer=file_organizer:organize_files",
         ],
     },
-    author="Your Name",
+    author="Tarun Kumar",
     description="A Python CLI tool to organize files by extension",
     long_description=open("README.md").read() if open("README.md", "r", encoding="utf-8") else "",
     long_description_content_type="text/markdown",

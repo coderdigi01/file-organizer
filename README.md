@@ -1,31 +1,38 @@
 # 📂 File Organizer
 
-A Python CLI tool to organize files by their extensions.  
-Built with [Click](https://click.palletsprojects.com/) and [Rich](https://rich.readthedocs.io/).
+![File Organizer Banner](assets/banner.png)
+
+A simple yet powerful Python CLI tool to organize files in any directory by their extensions.  
+Built with [Click](https://click.palletsprojects.com/) 🖱️ and [Rich](https://rich.readthedocs.io/) 🌈.
 
 ---
 
 ## ✨ Features
-- Organizes files in a directory by extension
-- Creates subfolders like `pdf`, `jpg`, `zip`, etc.
-- Supports **dry-run mode** (no changes, just preview)
-- Handles duplicate filenames automatically (`file_1.pdf`, `file_2.pdf`, …)
-- Beautiful output with progress bars and tables (powered by Rich)
+
+- 🗂️ Automatically organizes files into subfolders based on extensions  
+- 🛠️ Supports **dry-run mode** (simulate without making changes)  
+- 🔄 Handles duplicate filenames gracefully (`file_1.pdf`, `file_2.pdf`, …)  
+- 🎨 Beautiful console output with **tables, colors, and progress bars**  
+- 💻 Works on **Windows, macOS, and Linux**  
 
 ---
 
 ## 📦 Installation
 
-Clone this repository and install locally in editable mode:
+### 1️⃣ Clone the repository
+
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/file-organizer.git
 cd file-organizer
+
+Install in editable mode
 pip install -e .
 
----
-## Tell Python to use UTF-8
-Run Python with UTF-8 mode:
-
-```bash
+UTF-8 Fix for Windows
 set PYTHONUTF8=1
+
+```
+## Usage
+``` bash
+file-organizer C:\Users\YourName\Downloads --dry-run -v

@@ -1,0 +1,8 @@
+Files to organize in C:\Users\YourDir\Downloads
+┏━━━━━━━━━━━┳━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Extension ┃ Count ┃ Files                    ┃
+┡━━━━━━━━━━━╇━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ .pdf      │ 3     │ invoice.pdf, bill.pdf... │
+│ .jpg      │ 5     │ photo.jpg, img01.jpg...  │
+│ .exe      │ 2     │ setup.exe, installer.exe │
+└───────────┴───────┴──────────────────────────┘

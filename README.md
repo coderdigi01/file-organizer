@@ -23,7 +23,8 @@ Built with [Click](https://click.palletsprojects.com/) 🖱️ and [Rich](https:
 
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/file-organizer.git
+git clone https://github.com/coderdigi01/file-organizer.git
+
 cd file-organizer
 
 Install in editable mode

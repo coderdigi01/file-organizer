@@ -37,3 +37,8 @@ set PYTHONUTF8=1
 ## Usage
 ``` bash
 file-organizer C:\Users\YourName\Downloads --dry-run -v
+
+```
+
+## Full bog see here:
+[Click]https://pythonjournals.com/create-cli-tool-python/
